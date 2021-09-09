@@ -1,3 +1,4 @@
+{
 //Fitting with TPeakFitter
 
 //Assuming that the histogram to fit is called myhist
@@ -52,4 +53,4 @@ a1->GetFitFunction()->SetParameter(1,511);
 
 //TPeakFitter has no problem fitting and 10+ peaks at once. It may take a few seconds, and the fit doesn't always converge
 //for every peak, so it can take a couple of tries to get it to fit properly. 
-
+}
