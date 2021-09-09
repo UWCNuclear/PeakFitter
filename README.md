@@ -1,4 +1,4 @@
-# Download PeakFitter
+# PeakFitter example
 
 To install git, paste in your terminal:
 
@@ -8,8 +8,6 @@ To download PeakFitter, paste:
 
     git clone https://github.com/UWCNuclear/PeakFitter.git
 
-You need to edit the name of the histogram and the range of the peaks (and, if required, the number of peaks).
-
 To run PeakFitter, type in the command line:
 
      grsisort -l histograms.root
@@ -17,3 +15,5 @@ To run PeakFitter, type in the command line:
 and then the following line in the GRSISort terminal:
 
     .x tpeakfitterExample.C
+    
+You need to edit the name of the histogram and the range of the peaks (and, if required, the number of peaks).
