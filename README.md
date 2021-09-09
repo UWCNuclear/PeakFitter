@@ -10,7 +10,7 @@ To download PeakFitter, paste:
 
 To run PeakFitter, type in the command line:
 
-     grsisort -l histograms.root
+    grsisort -l histograms.root
     
 and then the following line in the GRSISort terminal:
 
