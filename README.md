@@ -16,4 +16,4 @@ and then paste the following line in the GRSISort terminal:
 
     .x tpeakfitterExample.C
     
-You need to edit the name of the histogram and the range of the peaks (and, if required, the number of peaks).
+You need to edit the name of the histogram, the ranges and the centroids of the peaks (and, if required, the number of peaks).
