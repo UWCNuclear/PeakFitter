@@ -19,7 +19,7 @@ a2 = new TRWPeak(513);
 a->AddPeak(a1);
 a->AddPeak(a2);
 
-//fit the TPeakFitter onto the histogram gE
+//fit the TPeakFitter onto the histogram myhist
 
 a->Fit(myhist,"R");
 //as usual, don't use the "L" flag for fitting gated/background subtracted spectra
