@@ -1,6 +1,6 @@
 //Fitting with TPeakFitter
 
-//Assuming that the histogram to fit is called gE
+//Assuming that the histogram to fit is called myhist
 //Can be used in command line or incorporated into a c++ code
 
 
@@ -20,7 +20,7 @@ a->AddPeak(a2);
 
 //fit the TPeakFitter onto the histogram gE
 
-a->Fit(gE,"L");
+a->Fit(myhist,"R");
 //as usual, don't use the "L" flag for fitting gated/background subtracted spectra
 
 //to access the fit parameters, call the following on the peak itself (not the entire TPeakFitter)
