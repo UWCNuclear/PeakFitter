@@ -8,11 +8,11 @@ To download PeakFitter, paste:
 
     git clone https://github.com/UWCNuclear/PeakFitter.git
 
-To run PeakFitter, type in the command line:
+To run PeakFitter, open your .root file containting your histogram:
 
-    grsisort -l histograms.root
+    grsisort -l histogram.root
     
-and then the following line in the GRSISort terminal:
+and then paste the following line in the GRSISort terminal:
 
     .x tpeakfitterExample.C
     
